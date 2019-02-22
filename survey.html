@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="quiz.js"></script>
+    </head>
+    <body>
+        <p> How did you like the center? </p>
+        <label for="comments">comments:</label>
+        <textarea type="text" id="comments" class="comments"></textarea>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <p> Select Text Area Location:</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        City:
+                        <select>
+                            <option>San Jose</option>
+                            <option>San Francisco</option>
+                            <option>Mountain View</option>
+                            <option>Palo Alto</option>
+                        </select>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        Room Number#:
+                        <select>
+                            <option> Room 210 </option>
+                            <option> Room 110 </option>
+                            <option> Room 410 </option>
+                            <option> Room 337 </option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="buttonAction">
+            <button value="survey" onclick="submit(this.value)">Submit & Get Score</button>
+            <button value="survey" onclick="window.location.href = 'summary.html'">Skip & Get Score</button>
+        </div>
+    </body>
+</html>

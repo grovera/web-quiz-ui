@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Question 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="quiz.js"></script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="2">
+                <p> Select the cosine theorem formula. </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="radio" id="question2_option1" name="choice">
+                    <math xmlns='http://www.w3.org/1998/Math/MathML'>
+                        <mrow>
+                            <mi>cos</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mo>α</mo>
+                                <mo>±</mo>
+                                <mo>β</mo>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                        <mo>=</mo>
+                        <mrow>
+                            <mi>cos</mi>
+                            <mo>α</mo>
+                        </mrow>
+                        <mrow>
+                            <mi>cos</mi>
+                            <mo>β</mo>
+                        </mrow>
+                        <mo>±</mo>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mo>α</mo>
+                        </mrow>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mo>β</mo>
+                        </mrow>
+                    </math>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="radio" id="question2_option2" name="choice">
+                    <math xmlns='http://www.w3.org/1998/Math/MathML'>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mo>α</mo>
+                                <mo>±</mo>
+                                <mo>β</mo>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                        <mo>=</mo>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mo>α</mo>
+                        </mrow>
+                        <mrow>
+                            <mi>cos</mi>
+                            <mo>β</mo>
+                        </mrow>
+                        <mo>±</mo>
+                        <mrow>
+                            <mi>cos</mi>
+                            <mo>α</mo>
+                        </mrow>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mo>β</mo>
+                        </mrow>
+
+                    </math>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="radio" id="question2_option3" name="choice">
+                    <math xmlns='http://www.w3.org/1998/Math/MathML'>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mo>α</mo>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mo>β</mo>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>2</mn>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mo>α</mo>
+                                        <mo>+</mo>
+                                        <mo>β</mo>
+                                    </mrow>
+                                    <mn>2</mn>
+                                </mfrac>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                        <mrow>
+                            <mi>cos</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mo>α</mo>
+                                        <mo>-</mo>
+                                        <mo>β</mo>
+                                    </mrow>
+                                    <mn>2</mn>
+                                </mfrac>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+
+                    </math>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="radio" id="question2_option4" name="choice">
+                    <math xmlns='http://www.w3.org/1998/Math/MathML'>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mo>α</mo>
+                        </mrow>
+                        <mo>-</mo>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mo>β</mo>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>2</mn>
+                        <mrow>
+                            <mi>cos</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mo>α</mo>
+                                        <mo>+</mo>
+                                        <mo>β</mo>
+                                    </mrow>
+                                    <mn>2</mn>
+                                </mfrac>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                        <mo>⋅</mo>
+                        <mrow>
+                            <mi>sin</mi>
+                            <mrow>
+                                <mo>(</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mo>α</mo>
+                                        <mo>-</mo>
+                                        <mo>β</mo>
+                                    </mrow>
+                                    <mn>2</mn>
+                                </mfrac>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+
+                    </math>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="buttonAction">
+        <button value="question2" onclick="submit(this.value)">Submit & Next Question</button>
+        <button onclick="cancel()">Cancel & Clear Selection</button>
+    </div>
+</body>
+
+</html>

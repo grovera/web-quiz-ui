@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Score Card</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="quiz.js"></script>
+    </head>
+    <body onload="javascript: calculateScore();">
+        <div class="score">
+            <details class="summary" open>
+                <summary>Quantitave Section</summary>
+                <div class="summary"><label for="quantitative_answered"><b>Number of Questions Answered:</b></label><span id="quantitative_answered">0</span></div>
+                <div class="summary"><label for="quantitative_score"><b>Number of Correct Answers:</b></label><span id="quantitative_score">0</span></div>
+                <div class="summary"><label for="quantitative_total_score"><b>Score:</b></label><span id="quantitative_total_score">0</span></div>
+            </details>
+            <details class="summary">
+                <summary>Reading Section</summary>
+                <div class="summary"><label for="reading_answered"><b>Number of Questions Answered:</b></label><span id="reading_answered">0</span></div>
+                <div class="summary"><label for="reading_score"><b>Number of Correct Answers:</b></label><span id="reading_score">0</span></div>
+                <div class="summary"><label for="reading_total_score"><b>Score:</b></label><span id="reading_total_score">0</span></div>
+            </details>
+            <details class="summary">
+                <summary>Audio/Video Section</summary>
+                <div class="summary"><label for="video_answered"><b>Number of Questions Answered:</b></label><span id="video_answered">0</span></div>
+                <div class="summary"><label for="video_score"><b>Number of Correct Answers:</b></label><span id="video_score">0</span></div>
+                <div class="summary"><label for="video_total_score"><b>Score:</b></label><span id="video_total_score">0</span></div>
+            </details>
+        </div>
+        <div class="thankYou">
+            <b>Thank You!!</b>
+        </div>
+        <div class="finishButton">
+            <button onclick="window.location.href = 'index.html'">Finish</button>
+        </div>
+    </body>
+</html>

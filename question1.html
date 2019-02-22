@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="quiz.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2">
+                <p> Given points (x1, y1) and (x2, y2) select the formula to find the equation of the given line. </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="radio" id="question1_option1" name="choice"> y = mx + b
+
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="radio" id="question1_option2" name="choice">
+                    <math xmlns='http://www.w3.org/1998/Math/MathML'>
+                        <mrow>
+                            <msup>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                        <mi>x</mi>
+                                        <mo>-</mo>
+                                        <mi>h</mi>
+                                    </mrow>
+                                    <mo>)</mo>
+                                </mrow>
+                                <mn>2</mn>
+                            </msup>
+                            <mo>+</mo>
+                            <msup>
+                                <mrow>
+                                    <mo>(</mo>
+                                    <mrow>
+                                        <mi>y</mi>
+                                        <mo>-</mo>
+                                        <mi>k</mi>
+                                    </mrow>
+                                    <mo>)</mo>
+                                </mrow>
+                                <mn>2</mn>
+                            </msup>
+                            <mo>=</mo>
+                            <msup>
+                                <mi>r</mi>
+                                <mn>2</mn>
+                            </msup>
+                        </mrow>
+                    </math>
+                </div>
+            </td>
+            <td rowspan="3">
+                <img src="Question1.png" width: "1000" height="400" alt="First Question" method="post">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="radio" id="question1_option3" name="choice">
+                    <math xmlns='http://www.w3.org/1998/Math/MathML'>
+                        <mi>y</mi>
+                        <mo>-</mo>
+                        <mi>y</mi>
+                        <mn>1</mn>
+                        <mo>=</mo>
+                        <mi>m</mi>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>-</mo>
+                            <mi>x</mi>
+                            <mn>1</mn>
+                            <mo>)</mo>
+                        </mrow>
+                    </math>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="radio" id="question1_option4" name="choice">
+                    <math xmlns='http://www.w3.org/1998/Math/MathML'>
+                        <mi>y</mi>
+                        <mo>-</mo>
+                        <mi>y</mi>
+                        <mn>2</mn>
+                        <mo>=</mo>
+                        <mfrac>
+                            <mrow>
+                                <mi>y</mi>
+                                <mn>2</mn>
+                                <mo>-</mo>
+                                <mi>y</mi>
+                                <mn>1</mn>
+                            </mrow>
+                            <mrow>
+                                <mi>x</mi>
+                                <mn>2</mn>
+                                <mo>-</mo>
+                                <mi>x</mi>
+                                <mn>1</mn>
+                            </mrow>
+                        </mfrac>
+                        <mo>⋅</mo>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi>x</mi>
+                            <mo>-</mo>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                            <mo>)</mo>
+                        </mrow>
+                    </math>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="buttonAction">
+        <button value="question1" onclick="submit(this.value)">Submit & Next Question</button>
+        <button onclick="cancel()">Cancel & Clear Selection</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 3</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="quiz.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2">
+                <p> As per the latest twitter news, complete the article snippet given by selecting 
+		appropriate chocies for the blanks.
+	</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="radio" id="question3_option1" name="choice" onclick="fillInTheBlank()" value="650">
+                    Option 1 Mark 1: $650
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="radio" id="question3_option2" name="choiceB" onclick="fillInTheBlank()" value="Twitter">
+                    Option 1 Mark 2: Twitter
+                    </math>
+                </div>
+            </td>
+            <th rowspan="3">
+                <p>"Twitter wants more cash. The company announced two <mark>$<span name="blank" id="blank1">_____</span></mark> million debt offerings
+	in a filling today, each with <br> a potential $100 increase provided that the sales are oversubscribed. Assuming full tip,
+	including the $100 <br> million boosters <mark><span name="blank" id="blank2">_____</span></mark> will raise up to $1.5 billion with the two offerings."</p>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="radio" id="question3_option3" name="choice" onclick="fillInTheBlank()" value="550">
+                    Option 2 Mark 1: $550
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="radio" id="question3_option4" name="choiceB" onclick="fillInTheBlank()" value="Google">
+                   	Option 1 Mark 2: Google
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="radio" id="question3_option5" name="choice" onclick="fillInTheBlank()" value="650">
+                    Option 3 Mark 1: $650
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="radio" id="question3_option6" name="choiceB" onclick="fillInTheBlank()" value="Facebook">
+                   	Option 1 Mark 2: Facebook
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="buttonAction">
+        <button value="question3" onclick="submit(this.value)">Submit & Next Question</button>
+        <button onclick="cancel()">Cancel & Clear Selection</button>
+    </div>
+</body>
+</html>

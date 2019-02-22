@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 4</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="quiz.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2">
+                <p> Watch the video and answer the following question. What is the source as mentioned in the video?</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="radio" id="question4_option1" name="choice" value="q4a1"> 
+                    NASA.Gov
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="radio" id="question4_option2" name="choice" value="q4a2">
+                    Data.Gov
+                </div>
+            </td>
+            <th rowspan="3">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ih9jPaZct1w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="radio" id="question4_option3" name="choice" value="q4a3">
+                    Facebook
+                </div>
+            </td>
+            <td>
+                <div>
+                    <input type="radio" id="question4_option4" name="choice" value="q4a4">
+                    XYZ.net
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="buttonAction">
+        <button value="question4" onclick="submit(this.value)">Submit & Next Question</button>
+        <button onclick="cancel()">Cancel & Clear Selection</button>
+    </div>
+</body>
+</html>
